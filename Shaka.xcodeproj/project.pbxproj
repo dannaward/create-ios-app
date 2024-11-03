@@ -52,7 +52,6 @@
 		4A9B1A4E2CBEA7B6004990F9 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		4A9B1A502CBEA7C1004990F9 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		4A9B1A542CBEA871004990F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4AD543D52CBEA9CF00AFAEE8 /* Shaka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shaka.entitlements; sourceTree = "<group>"; };
 		4AD543D62CBEA9FA00AFAEE8 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		B1631F072A1759EA0050974F /* Shaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1631F0A2A1759EA0050974F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +116,6 @@
 		B1631EFE2A1759EA0050974F = {
 			isa = PBXGroup;
 			children = (
-				4AD543D52CBEA9CF00AFAEE8 /* Shaka.entitlements */,
 				B1631F092A1759EA0050974F /* Shaka */,
 				B1631F202A1759EB0050974F /* ShakaTests */,
 				B1631F2A2A1759EB0050974F /* ShakaUITests */,
@@ -589,8 +587,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BASE_URL = "http://shaka.dannawagyu.com:8080";
-				CODE_SIGN_ENTITLEMENTS = Shaka/Shaka.entitlements;
+				BASE_URL = "http://localhost:8080";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -622,8 +619,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BASE_URL = "http://shaka.dannawagyu.com:8080";
-				CODE_SIGN_ENTITLEMENTS = Shaka/Shaka.entitlements;
+				BASE_URL = "http://localhost:8080";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
